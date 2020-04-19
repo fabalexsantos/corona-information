@@ -4,6 +4,17 @@ body {
   margin: 0px;
 }
 
+.titleSection {
+  text-align: center;
+  color: #2e7d32;
+  text-shadow: 0 0 0.2em #8F7;
+  padding-top: 15px;
+}
+
+.padding {
+  padding-top: 50px;
+}
+
 .menu {
   align-items: center;
   text-align: center;
@@ -16,6 +27,10 @@ nav {
   background-color: white;
   padding: 0.2em;
 }
+a{
+  text-decoration: none;
+}
+
 
 nav a {
   
@@ -31,7 +46,7 @@ nav ul {
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 }
 
-nav a:hover, a:active {
+nav a:hover, nav a:active {
   background:  #2e7d32;
   padding: 0.1em 0.7em 0.1em 0.7em;
   color: white;
@@ -269,16 +284,17 @@ a {
   width: 100%;
 }
 .sm{
-  margin: 20px 0;
+  margin: 30px 0;
+
 }
 .sm a{
   display: inline-flex;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   justify-content: center;
   align-items: center;
   color: #2e7d32;
-  font-size: 18px;
+  font-size: 50px;
   transition: 0.4s;
   border-radius: 50%
 }
