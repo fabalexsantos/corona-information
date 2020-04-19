@@ -335,14 +335,7 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .cards-wrapper {
-    padding: 4rem 2rem;
-  }
-  .card {
-    max-width: calc(100vw - 4rem);
-  }
-}
+
 
 /* page About*/
 
@@ -373,6 +366,27 @@ a {
     width: 100px;
     margin: auto;
     }
+
+/* page Mais*/
+
+.mais-text {
+    text-align: justify;
+    margin: auto;
+    padding: 50px;
+    font-size: 20px ;
+}
+
+.mais-grid {
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.logo1, .logo2, .logo3 {
+    margin: auto;
+
+
+}
 
 /* page Contact*/
 
@@ -459,7 +473,7 @@ button {
   margin-left: 0.5em;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .info {
     display: block;
     text-align: center;
@@ -467,4 +481,19 @@ button {
   .info h1 {
     margin: 0;
   }
+
+    .cards-wrapper {
+      padding: 4rem 2rem;
+    }
+    .card {
+      max-width: calc(100vw - 4rem);
+    }
+  }
+
+
+  @media screen and (max-width: 710px) {
+
+    nav ul{
+        display: block;
+    }
 }
