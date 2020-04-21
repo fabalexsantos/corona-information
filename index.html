@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-    <link rel="stylesheet" href="https://corona-information.netlify.app/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -22,9 +22,9 @@
 
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-             <li><a href="contato.html">Contato</a></li>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="about.html">Sobre</a></li>
+              <li><a href="contact.html">Contato</a></li>
               <li><a href="mais.html">Saiba Mais</a></li>
             </ul>
           </nav>
@@ -37,62 +37,60 @@
       </header>
 
       <main>
-        <h1 class="titleSection">Notícias em Vídeo</h1>
+        <h1 class="titleSection padding">Notícias em Texto</h1>
         <section class="cards-wrapper">
           <div class="card-grid-space">
-            <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+            <a class="card" href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/19/como-a-pandemia-de-coronavirus-impacta-de-maneira-mais-severa-a-vida-das-mulheres-em-todo-o-mundo.ghtml" style="--bg-img: url(./images/1.jpg)">
               <div>
-                <h1>HTML Syntax</h1>
-                <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-                <div class="date">6 Oct 2017</div>
+                <h1>A pandemia e as mulheres</h1>
+                <p>Como o vírus impacta vidas pelo mundo</p>
+                <div class="date">19 Abril 2020</div>
                 <div class="tags">
-                  <div class="tag">HTML</div>
+                  <div class="tag">Mundo</div>
                 </div>
               </div>
             </a>
           </div>
           <div class="card-grid-space">
-            <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+            <a class="card" href="https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/?_ga=2.104089542.712976124.1587312830-304341893.1586642897#/" style="--bg-img: url(./images/2.jpg)">
               <div>
-                <h1>Basic types of HTML tags</h1>
-                <p>Learn about some of the most common HTML tags…</p>
-                <div class="date">9 Oct 2017</div>
+                <h1>Dados Atualizados</h1>
+                <p>Confira o mapa em tempo real de casos</p>
+                <div class="date">19 Abril 2020</div>
                 <div class="tags">
-                  <div class="tag">HTML</div>
+                  <div class="tag">Brasil</div>
                 </div>
               </div>
             </a>
           </div>
           <div class="card-grid-space">
-            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+            <a class="card" href="https://g1.globo.com/mg/minas-gerais/noticia/2020/04/19/coronavirus-numero-de-casos-confirmados-sobre-para-1154-em-minas-gerais-total-de-mortes-permanece-em-39.ghtml" style="--bg-img: url(./images/3.jpg)">
               <div>
-                <h1>Links, images and about file paths</h1>
-                <p>Learn how to use links and images along with file paths…</p>
-                <div class="date">14 Oct 2017</div>
+                <h1>A doença se alastra!</h1>
+                <p>Número sobe para 1.154 em MG</p>
+                <div class="date">19 Abril 2020</div>
                 <div class="tags">
-                  <div class="tag">HTML</div>
+                  <div class="tag">Minas</div>
                 </div>
               </div>
             </a>
           </div>
         </section>
         
-        <h1>Notícias em Texto</h1>
+        <h1 class="titleSection">Notícias em Vídeo</h1>
         <section class="cards-wrapper">
           <div class="card-grid-space">
             <div class="card2 middle">
               <div class="front">
-                <img src="./images/img.jpg" alt="">
+                <img src="./images/4.jpg" alt="">
               </div>
               <div class="back">
                 <div class="back-content middle">
-                  <h2>DarkCode</h2>
-                  <span>Youtube Channel</span>
-                  <div class="sm">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/watch?v=VRqaG24eL0I">
+                    <h2>BCC Brasil</h2>
+                    <span>Clique e assista no YT</span>
+                    <div class="sm">
+                    <i class="fab fa-youtube"></i></a>
                   </div>
                 </div>
               </div>
@@ -102,17 +100,15 @@
           <div class="card-grid-space">
             <div class="card2 middle">
               <div class="front">
-                <img src="./images/img.jpg" alt="">
+                <img src="./images/5.jpg" alt="">
               </div>
               <div class="back">
                 <div class="back-content middle">
-                  <h2>DarkCode</h2>
-                  <span>Youtube Channel</span>
-                  <div class="sm">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/watch?v=40_bB7h7GOE">
+                    <h2>BCC Brasil</h2>
+                    <span>Clique e assista no YT</span>
+                    <div class="sm">
+                    <i class="fab fa-youtube"></i></a>
                   </div>
                 </div>
               </div>
@@ -122,17 +118,15 @@
           <div class="card-grid-space">
             <div class="card2 middle">
               <div class="front">
-                <img src="./images/img.jpg" alt="">
+                <img src="./images/6.jpg" alt="">
               </div>
               <div class="back">
                 <div class="back-content middle">
-                  <h2>DarkCode</h2>
-                  <span>Youtube Channel</span>
-                  <div class="sm">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/watch?v=Axra_Fg11Ik">
+                    <h2>BCC Brasil</h2>
+                    <span>Clique e assista no YT</span>
+                    <div class="sm">
+                    <i class="fab fa-youtube"></i></a>
                   </div>
                 </div>
               </div>
